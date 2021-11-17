@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="popup-grandfather" id="popupGrandfather">
+      <div class="popup" id="popup">
+        <div class="popup-header-parent">
+          <p class="popup-title">Popup Title</p>
+        </div>
+        <div class="popup-body-parent">
+          <p class="popup-body-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+            omnis illum minus magni quia libero blanditiis optio eaque
+            recusandae. Totam dignissimos sapiente dolorem voluptatum optio
+            itaque, corporis doloribus sint! Quis.
+          </p>
+        </div>
+        <div class="popup-footer-parent">
+          <div class="close-btn">
+            <a onclick="closePopup()" href="#"><span>Close</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button onclick="openPopup()" class="open-btn">Open Popup</button>
+  </body>
+</html>

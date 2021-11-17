@@ -1,0 +1,144 @@
+.popup-grandfather {
+  z-index: 2000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+
+.popup-grandfather .popup {
+  background-color: #4a4e4d;
+  color: #fff;
+  width: 55vw;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 10px;
+  border-radius: 8px;
+  -webkit-transform: scale(0) !important;
+          transform: scale(0) !important;
+  font-family: sans-serif;
+}
+
+.popup-grandfather .popup .popup-header-parent {
+  padding: 0 5px;
+  text-align: center;
+}
+
+.popup-grandfather .popup .popup-header-parent .popup-title {
+  font-size: 23px;
+}
+
+.popup-grandfather .popup .popup-body-parent {
+  margin: 10px 0;
+}
+
+.popup-grandfather .popup .popup-body-parent .popup-body-text {
+  font-size: 15px;
+  padding: 0 10px;
+}
+
+.popup-grandfather .popup .popup-footer-parent {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  /* Button 1 styles */
+}
+
+.popup-grandfather .popup .popup-footer-parent .close-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.popup-grandfather .popup .popup-footer-parent .close-btn a {
+  text-decoration: none;
+  border: 2px solid #010100;
+  padding: 15px 45px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+.popup-grandfather .popup .popup-footer-parent span {
+  position: relative;
+  /* z-index coz when we put bg to before and after this span text will not be visible */
+  z-index: 3;
+}
+
+.popup-grandfather .popup .popup-footer-parent .close-btn a::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -2px;
+  width: calc(100% + 6px);
+  /*100% plus double the times left values*/
+  height: calc(100% - 10px);
+  background-color: #fe8a71;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+.popup-grandfather .popup .popup-footer-parent .close-btn a:hover::before,
+.popup-grandfather .popup .popup-footer-parent .btn-2 a:hover::before {
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+}
+
+.popup-grandfather .popup .popup-footer-parent .close-btn a::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  width: calc(100% - 10px);
+  /*100% plus double the times left values*/
+  height: calc(100% + 10px);
+  background-color: #fe8a71;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.popup-grandfather .popup .popup-footer-parent .close-btn a:hover::after {
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.open-btn {
+  padding: 10px 25px;
+  background-color: #fe8a71;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.open-btn:hover {
+  background-color: transparent;
+  border: 1px solid #fe8a71;
+}
