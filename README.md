@@ -4,7 +4,7 @@ this popup is very good becaus I made it by easy code by `HTML` `SCSS` `JS`
 
 ## What is this popup ?
 
-<a href="https://ibb.co/G7NFkSR"><img src="https://i.ibb.co/F6CnJTz/web.gif" alt="web" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>host image online free</a><br />
+<a href="https://ibb.co/G7NFkSR"><img src="https://i.ibb.co/F6CnJTz/web.gif" alt="web" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'><br />
 
 ## Links
 
