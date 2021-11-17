@@ -4,7 +4,7 @@ this popup is very good becaus I made it by easy code by `HTML` `SCSS` `JS`
 
 ## What is this popup ?
 
-[Popup](https://ibb.co/G7NFkSR)
+![Popup](https://ibb.co/G7NFkSR)
 
 ## Links
 
@@ -217,7 +217,5 @@ const openPopup = () => {
   }, 200);
 };
 ```
-
 </p>
 </details>
-````
