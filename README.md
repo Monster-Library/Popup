@@ -1,8 +1,8 @@
 # Monster-Library-Popup
 
-this popup is very good becaus I made it by easy code by `HTML` `SCSS` `JS`
-this popus is made by `ZOOM Effect` so this is so cool !!
-this popus have so <strong>Beautiful</strong> button
+This Popup is very good becaus I made it by easy code by `HTML` `SCSS` `JS` <br/>
+This Popup is made by `ZOOM Effect` so this is so cool !! <br/>
+This Popup have so <strong>Beautiful</strong> button <br/>
 
 ## What is this popup ?
 
